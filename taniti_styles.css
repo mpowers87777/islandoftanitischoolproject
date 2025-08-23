@@ -1,0 +1,101 @@
+body {
+    background-color: white;
+    font-size: clamp(18px, 3vw, 42px);
+    font-family: "Times New Roman", Times, serif;
+    color: #045dab;
+    margin: 0 10% 0 10%;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+footer {
+    border-top: 1px solid black;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        margin-bottom: 150px;
+    }
+    
+    a {
+        float: left;
+    }
+}
+
+.topnav{
+    background-color: white;
+    padding: 15px;
+    
+}
+
+.topnav a:hover {
+    background-color: #bc5e17;
+    color: rgb(125, 200, 233);
+}
+
+a {
+    background-color: #d86207;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px 1px 15px 0px;
+}
+
+.imgFull {
+    width: 100%;
+    height: auto;
+}
+
+.imgRight {
+    float: right;
+    max-width: 50%;
+    margin: 65px 0 20px 20px;
+}
+
+.imgGrid {
+    width: 80%;
+    height: auto;
+    border: 5px double #676767;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+li {
+    margin-top: 20px;
+}
+
+h1 {
+    background-color: aqua;
+    margin: 15px 0px 15px 0px;
+    padding: 15px;
+}
+
+form {
+    margin-top: 20px;
+    background-color: #f5d272;
+    border: 3px solid #676767;
+    padding: 20px;
+    font-size: clamp(18px, 3vw, 42px);
+}
+
+input {
+    background-color: #32c1db;
+    color: #bdbdbd;
+    font-size: clamp(18px, 3vw, 38px);
+    
+}
+
+::placeholder {
+    color: #d66814;
+    font-size: clamp(18px, 3vw, 38px);
+}
+
+textarea {
+    background-color: #32c1db;
+    max-width: 90%;
+    box-sizing: border-box;
+    font-size: clamp(18px, 3vw, 38px);
+}
