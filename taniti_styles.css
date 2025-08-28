@@ -12,20 +12,17 @@ footer {
     border-top: 1px solid black;
 }
 
-@media screen and (max-width: 900px) {
-    header {
-        margin-bottom: 150px;
-    }
-    
-    a {
-        float: left;
+@media screen and (max-width: 710px) {
+
+    .topnav a {
+        display: block;
     }
 }
 
 .topnav{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 15px;
-    
+    overflow: hidden;
 }
 
 .topnav a:hover {
@@ -33,15 +30,17 @@ footer {
     color: rgb(125, 200, 233);
 }
 
-a {
+.topnav a {
     background-color: #d86207;
     text-decoration: none;
+    text-align: center;
+    
     padding: 10px;
     margin: 15px 1px 15px 0px;
 }
 
 .imgFull {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
@@ -68,34 +67,40 @@ li {
 }
 
 h1 {
-    background-color: aqua;
+    background-color: #99eef0;
     margin: 15px 0px 15px 0px;
     padding: 15px;
 }
 
 form {
     margin-top: 20px;
-    background-color: #f5d272;
+    background-color: #99eef0;
     border: 3px solid #676767;
     padding: 20px;
     font-size: clamp(18px, 3vw, 42px);
 }
 
 input {
-    background-color: #32c1db;
-    color: #bdbdbd;
+    background-color: white;
+    color: #343030;
     font-size: clamp(18px, 3vw, 38px);
     
 }
 
 ::placeholder {
-    color: #d66814;
+    color: #535251;
     font-size: clamp(18px, 3vw, 38px);
 }
 
 textarea {
-    background-color: #32c1db;
+    background-color: white;
     max-width: 90%;
     box-sizing: border-box;
     font-size: clamp(18px, 3vw, 38px);
+}
+
+select {
+    padding: 5px;
+    font-size: clamp(18px, 3vw, 38px);
+    float: right;
 }
